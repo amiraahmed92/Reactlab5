@@ -5,7 +5,7 @@ import { usePostPosts } from "../../hooks/usePost";
 
 
 export const ADDSUP = (props) => {
-  const [title, setSups] = useState("Please Enter your body");
+  const [title, setSups] = useState("Plz enter body");
   const post = usePostPosts()
 
 

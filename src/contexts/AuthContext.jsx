@@ -7,7 +7,7 @@ export const AuthContextProvider = ({ children }) => {
   const [token, setToken] = useState(null);
 
   const login = (email, password) => {
-    if (email === "fathi@gmail.com" && password === "123456") {
+    if (email === "meerooahmed@gmail" && password === "123456") {
     
       setIsLoggedIn(true);
       return true;
